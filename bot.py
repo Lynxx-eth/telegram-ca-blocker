@@ -7,6 +7,7 @@ import re
 
 from keep_alive import keep_alive
 
+# Trigger redeploy
 # Load .env values
 load_dotenv()
 BOT_TOKEN = os.getenv("BOT_TOKEN")
