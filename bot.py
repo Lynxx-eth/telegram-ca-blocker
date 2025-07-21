@@ -6,6 +6,8 @@ from datetime import datetime, timedelta
 import re
 
 from keep_alive import keep_alive
+keep_alive()
+
 
 # Trigger redeploy
 # Load .env values
